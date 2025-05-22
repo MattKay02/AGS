@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Atomic Growth Strategies</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>html { scroll-behavior: smooth; }</style>
+</head>
+<body class="home">
+  <div id="scrollIndicator"></div>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo-link">
+        <img src="images/logo.jpg" alt="Atomic Growth Strategies" class="logo-img"/>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="case-study.html">Case Studies</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" style="background-image:url('images/hero.jpg')">
+    <div class="overlay"></div>
+    <div class="hero-content fade-in">
+      <h1 class="slide-up">Accelerate Your Business Growth</h1>
+      <p class="fade-in">We combine advanced marketing tactics with robust growth planning to propel your small business forward.</p>
+      <a href="pricing.html" class="button fade-in">Get Started</a>
+      <a href="#about" class="button-ghost fade-in">Learn More</a>
+    </div>
+  </section>
+
+  <section id="about" class="section fade-in hover-section">
+    <div class="container">
+      <h2 class="slide-up">Our Approach</h2>
+      <p class="fade-in">Tailored marketing campaigns and strategic growth solutions, powered by data-driven insights.</p>
+    </div>
+  </section>
+
+  <section class="section fade-in hover-section testimonials">
+    <div class="container">
+      <h2 class="slide-up">Client Success Stories</h2>
+      <div class="testimonial-slider">
+        <div class="testimonial-card slide-up">
+          <p>"Their expertise drove exponential growth for our brand!"</p>
+          <h4>- Sarah L., Fresh Brews</h4>
+        </div>
+        <div class="testimonial-card slide-up">
+          <p>"Engagement soared thanks to their innovative tactics."</p>
+          <h4>- Marcus J., PeakFit</h4>
+        </div>
+        <div class="testimonial-card slide-up">
+          <p>"We focused on operations while they fueled our digital growth."</p>
+          <h4>- Janine K., MoveWell Co.</h4>
+        </div>
+      </div>
+      <div class="testimonial-controls">
+        <button class="prev">&laquo;</button>
+        <button class="next">&raquo;</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section fade-in hover-section faq">
+    <div class="container">
+      <h2 class="slide-up">FAQs</h2>
+      <div class="faq-item">
+        <h3 class="faq-question">How do your tactics boost growth?</h3>
+        <div class="faq-answer"><p>Data-driven, tailored strategies that drive quality leads.</p></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-question">What services do you offer?</h3>
+        <div class="faq-answer"><p>SEO, content marketing, social campaigns, and growth planning.</p></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-question">When will I see results?</h3>
+        <div class="faq-answer"><p>Most clients see improvements within three months.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer fade-in">
+    <div class="container">
+      <p>&copy; 2025 Atomic Growth Strategies</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/atomicgrowthstrategies/?utm_source=ig_web_button_share_sheet"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="contact.html"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="chatbot-toggle"><i class="fas fa-comment"></i></button>
+  <div id="chatbot">
+    <div id="chatbot-header"><span>Chat with us!</span><button id="chatbot-close">&times;</button></div>
+    <div id="chatbot-messages"><div class="message bot">Hello! How can we help you today?</div></div>
+    <div id="chatbot-input"><input id="chatbot-input-field" placeholder="Type your message..." /><button id="chatbot-send">Send</button></div>
+  </div>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
